@@ -1,1 +1,1 @@
-# webpack-copy-anywhere
+# Webpack copy anywhere plugin

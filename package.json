@@ -1,0 +1,42 @@
+{
+    "name": "webpack-copy-bundle",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Ferdi Koomen",
+    "homepage": "https://github.com/ferdikoomen/webpack-copy-bundle",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ferdikoomen/webpack-copy-bundle.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ferdikoomen/webpack-copy-bundle/issues"
+    },
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "Ferdi Koomen",
+            "email": "info@madebyferdi.com"
+        }
+    ],
+    "main": "src/index.js",
+    "module": "src/index.js",
+    "files": [
+        "src/index.js"
+    ],
+    "scripts": {
+        "clean": "rimraf ./test/dist ./test/tmp",
+        "build": "webpack"
+    },
+    "dependencies": {
+        "path": "0.12.7",
+        "mkdirp": "0.5.1"
+    },
+    "devDependencies": {
+        "file-loader": "4.2.0",
+        "jest": "24.9.0",
+        "jest-cli": "24.9.0",
+        "rimraf": "3.0.0",
+        "webpack": "4.41.0",
+        "webpack-cli": "3.3.9"
+    }
+}
