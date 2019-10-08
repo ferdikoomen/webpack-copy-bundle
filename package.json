@@ -1,6 +1,6 @@
 {
     "name": "webpack-copy-bundle",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "author": "Ferdi Koomen",
     "homepage": "https://github.com/ferdikoomen/webpack-copy-bundle",
@@ -28,8 +28,8 @@
         "build": "webpack"
     },
     "dependencies": {
-        "path": "0.12.7",
-        "mkdirp": "0.5.1"
+        "mkdirp": "0.5.1",
+        "path": "0.12.7"
     },
     "devDependencies": {
         "file-loader": "4.2.0",
