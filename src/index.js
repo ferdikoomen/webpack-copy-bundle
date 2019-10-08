@@ -5,23 +5,23 @@ const path = require('path');
 const mkdirp = require('mkdirp');
 
 /**
- * The copy after build plugin copies bundle outputs to a specific folder.
+ * The 'webpack-copy-bundle' plugin copies bundle outputs to a specific folder.
  * This works different from the copy plugin, since this waits for the bundle
- * to be completed.
+ * to be completed and allows you to copy the bundle anywhere!
  *
  * @param mappings The mappings between the bundle name and the output dir.
  */
-function CopyAfterBuildPlugin(mappings) {
+function WebpackCopyBundle(mappings) {
     this._mappings = mappings || {};
 }
 
-CopyAfterBuildPlugin.prototype.apply = function (compiler) {
+WebpackCopyBundle.prototype.apply = function (compiler) {
 
     // Fetch the mapping from the plugin initialization.
     const mappings = this._mappings;
 
     // Wait for the compiler to be done
-    compiler.hooks.done.tap('CopyAfterBuildPlugin', stats => {
+    compiler.hooks.done.tap('WebpackCopyBundle', stats => {
 
         // Fetch the output chunks
         const statsJson = stats.toJson();
@@ -55,4 +55,4 @@ CopyAfterBuildPlugin.prototype.apply = function (compiler) {
     });
 };
 
-module.exports = CopyAfterBuildPlugin;
+module.exports = WebpackCopyBundle;
