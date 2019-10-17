@@ -2,7 +2,7 @@
 
 const path = require('path');
 
-const CopyBundlePlugin = require('./src');
+const WebpackCopyBundle = require('./src');
 
 module.exports = {
 
@@ -10,14 +10,16 @@ module.exports = {
 
     entry: path.resolve(__dirname, './test/index.js'),
 
+    devtool: false,
+
     output: {
         path: path.resolve(__dirname, './test/dist'),
         filename: 'bundle.js'
     },
 
     plugins: [
-        new CopyBundlePlugin({
-            'main': '../tmp',
+        new WebpackCopyBundle({
+            main: '../tmp',
         })
     ]
 };
