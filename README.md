@@ -24,7 +24,7 @@ takes care of copying all of the related files to the output directory.
 npm install webpack-copy-bundle --save-dev
 ```
 
-##Usage
+## Usage
 
 ```js
 const WebpackCopyBundle = require('./src');
