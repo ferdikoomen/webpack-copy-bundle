@@ -26,7 +26,7 @@ npm install webpack-copy-bundle --save-dev
 
 ## Usage
 
-```js
+```javascript
 const WebpackCopyBundle = require('./src');
 
 module.exports = {
@@ -43,7 +43,7 @@ module.exports = {
 
 Example of multiple entries:
 
-```js
+```javascript
 const WebpackCopyBundle = require('./src');
 
 module.exports = {
