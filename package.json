@@ -12,6 +12,12 @@
         "url": "https://github.com/ferdikoomen/webpack-copy-bundle/issues"
     },
     "license": "MIT",
+    "keywords": [
+        "webpack",
+        "plugin",
+        "move",
+        "copy"
+    ],
     "maintainers": [
         {
             "name": "Ferdi Koomen",
