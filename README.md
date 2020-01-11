@@ -3,11 +3,12 @@
 [![NPM](https://badgen.net/npm/v/webpack-copy-bundle)](https://www.npmjs.com/package/webpack-copy-bundle)
 [![License](https://badgen.net/npm/license/webpack-copy-bundle)](https://www.npmjs.com/package/webpack-copy-bundle)
 [![Build Status](https://badgen.net/travis/ferdikoomen/webpack-copy-bundle/master)](https://travis-ci.org/ferdikoomen/webpack-copy-bundle)
+[![Codecov](https://codecov.io/gh/ferdikoomen/webpack-copy-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/ferdikoomen/webpack-copy-bundle)
 [![Quality](https://badgen.net/lgtm/grade/javascript/g/ferdikoomen/webpack-copy-bundle)](https://lgtm.com/projects/g/ferdikoomen/webpack-copy-bundle)
 
 > Webpack plugin to copy your bundle after a successful build.
 
-In some cases you might want to copy your bundle to a directory after a successful build. 
+In some cases you might want to copy your bundle to a directory after a successful build.
 However, Webpack does not allow you to do these 'out-of-source' builds. You can use the standard
 [Webpack Copy Plugin](https://github.com/webpack-contrib/copy-webpack-plugin), however then you
 need to manually copy all related files (bundle, source-map, etc.). To make this a bit easier
