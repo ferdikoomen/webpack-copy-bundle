@@ -54,7 +54,7 @@
         "jest-cli": "25.1.0",
         "prettier": "1.19.1",
         "rimraf": "3.0.2",
-        "webpack": "4.41.5",
+        "webpack": "4.41.6",
         "webpack-cli": "3.3.11"
     }
 }
