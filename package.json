@@ -41,7 +41,7 @@
         "codecov": "codecov --token=60857c48-6808-41fd-b367-6c8db05fe3b5"
     },
     "dependencies": {
-        "mkdirp": "1.0.3",
+        "mkdirp": "1.0.4",
         "path": "0.12.7"
     },
     "devDependencies": {
