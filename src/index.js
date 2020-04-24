@@ -18,18 +18,18 @@ function WebpackCopyBundle(mappings) {
 WebpackCopyBundle.prototype.apply = function (compiler) {
     const mappings = this._mappings;
 
-    compiler.hooks.done.tap('WebpackCopyBundle', (stats) => {
+    compiler.hooks.done.tap('WebpackCopyBundle', stats => {
         const statsJson = stats.toJson();
         const chunks = statsJson.chunks;
 
-        chunks.forEach((chunk) => {
+        chunks.forEach(chunk => {
             const chunkName = chunk.names[0];
             const mapping = mappings[chunkName];
 
             // If we have a mapping for this chunk name then iterate over
             // each file in te chunk (javascript, sourcemap, css, etc.).
             if (mapping) {
-                chunk.files.forEach((file) => {
+                chunk.files.forEach(file => {
                     const outputPath = compiler.options.output.path;
                     const outputFile = path.resolve(outputPath, file);
                     const destinationPath = path.resolve(outputPath, mapping);

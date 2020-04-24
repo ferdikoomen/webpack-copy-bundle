@@ -5,7 +5,7 @@ const path = require('path');
 const webpack = require('webpack');
 const options = require('../webpack.config.js');
 
-test('is copied', (done) => {
+test('is copied', done => {
     webpack(options, (err, stats) => {
         if (err) {
             return done(err);
