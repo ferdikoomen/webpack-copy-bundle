@@ -1,6 +1,6 @@
 {
     "name": "webpack-copy-bundle",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "Webpack plugin to copy your bundle after a successful build.\n",
     "author": "Ferdi Koomen",
     "homepage": "https://github.com/ferdikoomen/webpack-copy-bundle",
@@ -47,7 +47,7 @@
     "devDependencies": {
         "codecov": "3.7.2",
         "eslint": "7.9.0",
-        "eslint-config-prettier": "6.11.0",
+        "eslint-config-prettier": "6.12.0",
         "eslint-plugin-prettier": "3.1.4",
         "file-loader": "6.1.0",
         "jest": "26.4.2",

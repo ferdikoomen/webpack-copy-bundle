@@ -14,7 +14,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, './test/dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
     },
 
     plugins: [
