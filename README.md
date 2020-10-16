@@ -1,10 +1,13 @@
 # Webpack Copy Bundle Plugin
 
-[![NPM](https://badgen.net/npm/v/webpack-copy-bundle)](https://www.npmjs.com/package/webpack-copy-bundle)
-[![License](https://badgen.net/npm/license/webpack-copy-bundle)](https://www.npmjs.com/package/webpack-copy-bundle)
-[![Build Status](https://badgen.net/travis/ferdikoomen/webpack-copy-bundle/master)](https://travis-ci.org/ferdikoomen/webpack-copy-bundle)
-[![Codecov](https://codecov.io/gh/ferdikoomen/webpack-copy-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/ferdikoomen/webpack-copy-bundle)
-[![Quality](https://badgen.net/lgtm/grade/javascript/g/ferdikoomen/webpack-copy-bundle)](https://lgtm.com/projects/g/ferdikoomen/webpack-copy-bundle)
+[![NPM][npm-image]][npm-url]
+[![License][license-image]][license-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][deps-image]][deps-url]
+[![Coverage][coverage-image]][coverage-url]
+[![Quality][quality-image]][quality-url]
+[![Code Climate][climate-image]][climate-url]
+[![Downloads][downloads-image]][downloads-url]
 
 > Webpack plugin to copy your bundle after a successful build.
 
@@ -60,3 +63,20 @@ module.exports = {
     ]
 };
 ```
+
+[npm-url]: https://npmjs.org/package/webpack-copy-bundle
+[npm-image]: https://img.shields.io/npm/v/webpack-copy-bundle.svg
+[license-image]: http://img.shields.io/npm/l/webpack-copy-bundle.svg
+[license-url]: LICENSE
+[travis-url]: https://travis-ci.org/ferdikoomen/webpack-copy-bundle
+[travis-image]: https://img.shields.io/travis/ferdikoomen/webpack-copy-bundle.svg
+[deps-url]: https://david-dm.org/ferdikoomen/webpack-copy-bundle
+[deps-image]: https://img.shields.io/david/ferdikoomen/webpack-copy-bundle.svg
+[coverage-url]: https://codecov.io/gh/ferdikoomen/webpack-copy-bundle
+[coverage-image]: https://img.shields.io/codecov/c/github/ferdikoomen/webpack-copy-bundle.svg
+[quality-url]: https://lgtm.com/projects/g/ferdikoomen/webpack-copy-bundle
+[quality-image]: https://img.shields.io/lgtm/grade/javascript/g/ferdikoomen/webpack-copy-bundle.svg
+[climate-url]: https://codeclimate.com/github/ferdikoomen/webpack-copy-bundle
+[climate-image]: https://img.shields.io/codeclimate/maintainability/ferdikoomen/webpack-copy-bundle.svg
+[downloads-image]: http://img.shields.io/npm/dm/webpack-copy-bundle.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=webpack-copy-bundle.svg
