@@ -66,8 +66,8 @@ module.exports = {
 
 [npm-url]: https://npmjs.org/package/webpack-copy-bundle
 [npm-image]: https://img.shields.io/npm/v/webpack-copy-bundle.svg
-[license-image]: http://img.shields.io/npm/l/webpack-copy-bundle.svg
 [license-url]: LICENSE
+[license-image]: http://img.shields.io/npm/l/webpack-copy-bundle.svg
 [travis-url]: https://travis-ci.org/ferdikoomen/webpack-copy-bundle
 [travis-image]: https://img.shields.io/travis/ferdikoomen/webpack-copy-bundle.svg
 [deps-url]: https://david-dm.org/ferdikoomen/webpack-copy-bundle
@@ -78,5 +78,5 @@ module.exports = {
 [quality-image]: https://img.shields.io/lgtm/grade/javascript/g/ferdikoomen/webpack-copy-bundle.svg
 [climate-url]: https://codeclimate.com/github/ferdikoomen/webpack-copy-bundle
 [climate-image]: https://img.shields.io/codeclimate/maintainability/ferdikoomen/webpack-copy-bundle.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=webpack-copy-bundle
 [downloads-image]: http://img.shields.io/npm/dm/webpack-copy-bundle.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=webpack-copy-bundle.svg
