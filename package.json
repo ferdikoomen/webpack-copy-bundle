@@ -1,6 +1,6 @@
 {
     "name": "webpack-copy-bundle",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Webpack plugin to copy your bundle after a successful build.\n",
     "author": "Ferdi Koomen",
     "homepage": "https://github.com/ferdikoomen/webpack-copy-bundle",
@@ -39,7 +39,7 @@
         "prettier": "prettier \"./src/**/*.js\" --check",
         "prettier:fix": "prettier \"./src/**/*.js\" --write",
         "codecov": "codecov --token=60857c48-6808-41fd-b367-6c8db05fe3b5",
-        "prepublish": "yarn run clean"
+        "prepublish": "yarn clean"
     },
     "dependencies": {
         "mkdirp": "1.0.4",
