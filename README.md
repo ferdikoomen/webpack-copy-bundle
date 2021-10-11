@@ -6,6 +6,7 @@
 [![Quality][quality-image]][quality-url]
 [![Code Climate][climate-image]][climate-url]
 [![Downloads][downloads-image]][downloads-url]
+[![Build][build-image]][build-url]
 
 > Webpack plugin to copy your bundle after a successful build.
 
@@ -74,3 +75,5 @@ module.exports = {
 [climate-image]: https://img.shields.io/codeclimate/maintainability/ferdikoomen/webpack-copy-bundle.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=webpack-copy-bundle
 [downloads-image]: http://img.shields.io/npm/dm/webpack-copy-bundle.svg
+[build-url]: https://circleci.com/gh/ferdikoomen/webpack-copy-bundle/tree/master
+[build-image]: https://circleci.com/gh/ferdikoomen/webpack-copy-bundle/tree/master.svg?style=svg
