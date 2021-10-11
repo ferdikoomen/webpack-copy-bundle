@@ -2,8 +2,6 @@
 
 [![NPM][npm-image]][npm-url]
 [![License][license-image]][license-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][deps-image]][deps-url]
 [![Coverage][coverage-image]][coverage-url]
 [![Quality][quality-image]][quality-url]
 [![Code Climate][climate-image]][climate-url]
@@ -68,10 +66,6 @@ module.exports = {
 [npm-image]: https://img.shields.io/npm/v/webpack-copy-bundle.svg
 [license-url]: LICENSE
 [license-image]: http://img.shields.io/npm/l/webpack-copy-bundle.svg
-[travis-url]: https://travis-ci.org/ferdikoomen/webpack-copy-bundle
-[travis-image]: https://img.shields.io/travis/ferdikoomen/webpack-copy-bundle.svg
-[deps-url]: https://david-dm.org/ferdikoomen/webpack-copy-bundle
-[deps-image]: https://img.shields.io/david/ferdikoomen/webpack-copy-bundle.svg
 [coverage-url]: https://codecov.io/gh/ferdikoomen/webpack-copy-bundle
 [coverage-image]: https://img.shields.io/codecov/c/github/ferdikoomen/webpack-copy-bundle.svg
 [quality-url]: https://lgtm.com/projects/g/ferdikoomen/webpack-copy-bundle
