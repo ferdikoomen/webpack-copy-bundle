@@ -39,7 +39,7 @@
         "prettier": "prettier \"./src/**/*.js\" --check",
         "prettier:fix": "prettier \"./src/**/*.js\" --write",
         "codecov": "codecov --token=60857c48-6808-41fd-b367-6c8db05fe3b5",
-        "prepublish": "yarn clean"
+        "prepublish": "yarn run clean"
     },
     "dependencies": {
         "mkdirp": "^1.0.4",
@@ -47,7 +47,7 @@
     },
     "devDependencies": {
         "codecov": "3.8.3",
-        "eslint": "7.32.0",
+        "eslint": "8.0.0",
         "eslint-config-prettier": "8.3.0",
         "eslint-plugin-prettier": "4.0.0",
         "file-loader": "6.2.0",
@@ -57,5 +57,9 @@
         "rimraf": "3.0.2",
         "webpack": "5.58.1",
         "webpack-cli": "4.9.0"
+    },
+    "engines": {
+        "node": ">= 16.0.0",
+        "npm": ">= 8.0.0"
     }
 }
