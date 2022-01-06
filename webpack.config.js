@@ -5,7 +5,6 @@ const path = require('path');
 const WebpackCopyBundle = require('./src');
 
 module.exports = {
-
     mode: 'development',
 
     entry: path.resolve(__dirname, './test/index.js'),
@@ -20,6 +19,6 @@ module.exports = {
     plugins: [
         new WebpackCopyBundle({
             main: '../tmp',
-        })
-    ]
+        }),
+    ],
 };

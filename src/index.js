@@ -2,7 +2,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const mkdirp = require('mkdirp');
 
 /**
  * The 'webpack-copy-bundle' plugin copies bundle outputs to a specific folder.
@@ -35,7 +34,9 @@ WebpackCopyBundle.prototype.apply = function (compiler) {
                     const destinationPath = path.resolve(outputPath, mapping);
                     const destinationFile = `${destinationPath}${path.sep}${file}`;
 
-                    mkdirp.sync(destinationPath);
+                    fs.mkdirSync(destinationPath, {
+                        recursive: true,
+                    });
 
                     fs.copyFileSync(outputFile, destinationFile);
                 });
