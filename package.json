@@ -37,7 +37,7 @@
         "eslint": "eslint .",
         "eslint:fix": "eslint . --fix",
         "codecov": "codecov --token=60857c48-6808-41fd-b367-6c8db05fe3b5",
-        "prepublish": "yarn run clean"
+        "prepublish": "npm run clean"
     },
     "dependencies": {
         "path": "^0.12.7"
