@@ -1,6 +1,6 @@
 {
     "name": "webpack-copy-bundle",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Webpack plugin to copy your bundle after a successful build.\n",
     "author": "Ferdi Koomen",
     "homepage": "https://github.com/ferdikoomen/webpack-copy-bundle",
@@ -44,15 +44,15 @@
     },
     "devDependencies": {
         "codecov": "3.8.3",
-        "eslint": "8.12.0",
+        "eslint": "8.14.0",
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-prettier": "4.0.0",
         "file-loader": "6.2.0",
-        "jest": "27.5.1",
-        "jest-cli": "27.5.1",
-        "prettier": "2.6.1",
+        "jest": "28.0.1",
+        "jest-cli": "28.0.1",
+        "prettier": "2.6.2",
         "rimraf": "3.0.2",
-        "webpack": "5.71.0",
+        "webpack": "5.72.0",
         "webpack-cli": "4.9.2"
     }
 }
