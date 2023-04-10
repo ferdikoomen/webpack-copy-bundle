@@ -3,8 +3,6 @@
 [![NPM][npm-image]][npm-url]
 [![License][license-image]][license-url]
 [![Coverage][coverage-image]][coverage-url]
-[![Quality][quality-image]][quality-url]
-[![Code Climate][climate-image]][climate-url]
 [![Downloads][downloads-image]][downloads-url]
 [![Build][build-image]][build-url]
 
@@ -69,10 +67,6 @@ module.exports = {
 [license-image]: http://img.shields.io/npm/l/webpack-copy-bundle.svg
 [coverage-url]: https://codecov.io/gh/ferdikoomen/webpack-copy-bundle
 [coverage-image]: https://img.shields.io/codecov/c/github/ferdikoomen/webpack-copy-bundle.svg
-[quality-url]: https://lgtm.com/projects/g/ferdikoomen/webpack-copy-bundle
-[quality-image]: https://img.shields.io/lgtm/grade/javascript/g/ferdikoomen/webpack-copy-bundle.svg
-[climate-url]: https://codeclimate.com/github/ferdikoomen/webpack-copy-bundle
-[climate-image]: https://img.shields.io/codeclimate/maintainability/ferdikoomen/webpack-copy-bundle.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=webpack-copy-bundle
 [downloads-image]: http://img.shields.io/npm/dm/webpack-copy-bundle.svg
 [build-url]: https://circleci.com/gh/ferdikoomen/webpack-copy-bundle/tree/master

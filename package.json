@@ -1,6 +1,6 @@
 {
     "name": "webpack-copy-bundle",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "Webpack plugin to copy your bundle after a successful build.\n",
     "author": "Ferdi Koomen",
     "homepage": "https://github.com/ferdikoomen/webpack-copy-bundle",
