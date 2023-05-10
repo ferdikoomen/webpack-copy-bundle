@@ -53,6 +53,6 @@
         "prettier": "2.8.8",
         "rimraf": "5.0.0",
         "webpack": "5.82.0",
-        "webpack-cli": "5.1.0"
+        "webpack-cli": "5.1.1"
     }
 }
